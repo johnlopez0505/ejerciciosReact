@@ -1,11 +1,12 @@
 import UserCard from "./UserCard";
 
-const UserList = ({users}) => {
-    //const{photo, firstName, lastName, birthdate, description, currentCompany }= users;
-    console.log(users);
+const UserList = ({user}) => {
+    const{photo, firstName, lastName, birthdate, description, currentCompany }= user;
+    const user1 = {photo,firstName,lastName,birthdate,description,currentCompany};
+    console.log(user);
     return(
         <div>
-           <UserCard user={users.forEach((user)=>user)}/>
+           <UserCard user={user}/>
         </div>
     );
 

@@ -33,7 +33,7 @@ const urlImagen1 = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzMRAv
     {photo: urlImagen,firstName: 'francisco',lastName: 'nolasco',birthdate: '1987-05-23',description: 'señor developer', currentCompany: 'NTT data'},
     {photo: urlImagen,firstName: 'jose',lastName: 'chema',birthdate: '1987-05-23',description: 'señor developer', currentCompany: 'NTT data'},
     {photo: urlImagen,firstName: 'carlos',lastName: 'sanchez',birthdate: '1987-05-23',description: 'señor developer', currentCompany: 'NTT data'},
-    {photo: urlImagen,firstName: 'ivan',lastName: 'el-terrible',birthdate: '1987-05-23',description: 'señor developer', currentCompany: 'NTT data'}
+    {photo: urlImagen,firstName: 'ivan',lastName: 'el-terrible',birthdate: '1987-05-23',description: 'señor developer', currentCompany: 'NTT data'},
   ]
 
 const App = () => {
@@ -47,7 +47,7 @@ const App = () => {
     <div className={`app ${theme}`}>
       <UserCard user= {users}/>
       <UserCard user= {user1}/>
-      <UserList user= {userlist}/>
+      <UserList user= {user}/>
     </div>
   );
 };
